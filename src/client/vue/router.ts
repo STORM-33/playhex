@@ -230,6 +230,11 @@ const routes: RouteRecordRaw[] = [
         component: () => import('./pages/PageRescue.vue'),
     },
     {
+        name: 'gif-export',
+        path: '/gif-export',
+        component: () => import('./pages/PageGifExport.vue'),
+    },
+    {
         name: 'test',
         path: '/test',
         component: () => import('./pages/PageTest.vue'),
